@@ -8,7 +8,7 @@
 
 .navbar a {
     text-decoration: none;
-    border:1px  solid black;
+    /* border:1px  solid black; */
     padding: 10px 20px;
     margin: 0 20px;
     background: black;
@@ -24,7 +24,7 @@
 }
 
 .hero{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 80vh;
     background:blue url('https://www.w3schools.com/w3images/architect.jpg');
 
@@ -43,23 +43,6 @@ h2{
     background: black;
 }
 
-/* .contact{
-    border: 10px solid red;
-    
-    margin: auto;
-    margin-top: 200px;
-    padding: 10px;
-
-    
-
-}
-
-form input{
-    width: 99%;
-    padding: 10px;
-    margin-top: 10px;
-    
-} */
 
 .projects{
     /* border: 10px solid red; */
@@ -93,7 +76,7 @@ form input{
 }
 
 .contact{
-    border: 10px solid red;
+    /* border: 10px solid red; */
     
     margin: auto;
     margin-top: 200px;
@@ -108,21 +91,35 @@ form input{
 
     
 }
-send_btn{
-    width: 15%;
+
+form input[type="submit"]{
+    width: fit-content;
     background-color: black;
     color: white;
+
+}
+
+form input[type="submit"]:hover{
+    background: gray;
+    color: black;
 }
 
 .picture{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     padding: 10px;
 }
 
 .footer{
-    
+    /* border: 5px solid orange; */
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
 
+.footer a{
+    text-decoration: none;
+    color: white;
+}
 
 
