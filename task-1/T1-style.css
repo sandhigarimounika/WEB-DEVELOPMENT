@@ -1,0 +1,128 @@
+.navbar{
+    /* border: 2px solid red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    border:1px  solid black;
+    padding: 10px 20px;
+    margin: 0 20px;
+    background: black;
+    color: white;
+
+    transition: .3s;
+}
+
+.navbar a:hover {
+    background: white;
+    color: black;
+
+}
+
+.hero{
+    border: 2px solid red;
+    height: 80vh;
+    background:blue url('https://www.w3schools.com/w3images/architect.jpg');
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    color: white;
+    font-size: 30px;
+
+}
+
+h2{
+    /* border: 10px solid red; */
+    background: black;
+}
+
+/* .contact{
+    border: 10px solid red;
+    
+    margin: auto;
+    margin-top: 200px;
+    padding: 10px;
+
+    
+
+}
+
+form input{
+    width: 99%;
+    padding: 10px;
+    margin-top: 10px;
+    
+} */
+
+.projects{
+    /* border: 10px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+}
+.projects img{
+    width: 100%;
+}
+
+.about{
+    /* border: 10px solid red; */
+}
+
+.about .containters{
+    /* border: 5px solid blue; */
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    gap: 1em;
+}
+
+.containters .card{
+    /* border: 2px solid green; */
+}
+
+.card img{
+    width: 100%;
+}
+
+.contact{
+    border: 10px solid red;
+    
+    margin: auto;
+    margin-top: 200px;
+    padding: 10px;
+
+}
+
+form input{
+    width: 99%;
+    padding: 10px;
+    margin-top: 10px;
+
+    
+}
+send_btn{
+    width: 15%;
+    background-color: black;
+    color: white;
+}
+
+.picture{
+    border: 2px solid yellow;
+    padding: 10px;
+}
+
+.footer{
+    
+}
+
+
+
+

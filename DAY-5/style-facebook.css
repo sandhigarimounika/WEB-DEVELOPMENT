@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    color: blue;
+    /* border: 2px solid green; */
+    text-align: center;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: whitesmoke;
+}
+
+form input{
+    width:100%;
+    margin-bottom:15px;
+    height:40px;
+}
+
+.login{
+    background-color: blue;
+    color: white;
+
+}
+h3{
+    text-align: center;
+}
